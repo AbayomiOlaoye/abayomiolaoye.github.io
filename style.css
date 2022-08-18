@@ -22,7 +22,8 @@ body {
   width: 100%;
 }
 
-.nav-link {
+.link,
+.hide {
   display: none;
 }
 
@@ -83,7 +84,6 @@ ul {
 .skills-div {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   width: 100%;
   margin: 0 auto;
   gap: 2rem;
