@@ -34,6 +34,10 @@ body {
   width: 100%;
 }
 
+.menu-icon {
+  cursor: pointer;
+}
+
 .header a {
   color: #fff;
   font-size: 1.125rem;
@@ -138,6 +142,13 @@ ul {
   color: #a2a3ae;
   height: 20px;
   align-items: center;
+}
+
+#works-section {
+  background-image: url(./images/top_left.svg), url(./images/center_bg.svg), url(./images/blur_bg.svg), url(./images/bottom_bg.svg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: top 250px left -120px, top 1000px right -150px, -80px 1800px, top 2550px right -300px;
 }
 
 .recent-works {
