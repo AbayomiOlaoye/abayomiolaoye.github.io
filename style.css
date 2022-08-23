@@ -232,12 +232,43 @@ ul {
   color: #c8c8d4;
 }
 
-.contact-form {
+#contact-section {
+  margin-top: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.center-align {
   text-align: center;
 }
 
-.media-footer,
-.social-media-links {
-  display: flex;
-  flex-direction: column;
+.full {
+  width: 100%;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  margin: 14px 0;
+  padding: 12px;
+  border: none;
+  accent-color: #5e42d7;
+  color: #191765;
+}
+
+.full:focus {
+  border-color: #5e42d7;
+}
+
+#textarea {
+  height: 148px;
+}
+
+.email-tab {
+  color: #c8c8d4;
+}
+
+.end-point {
+  width: 40%;
+  height: 6px;
+  background: #000;
+  border-radius: 10px;
 }
