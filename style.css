@@ -230,3 +230,8 @@ ul {
   background: #2a2b33;
   color: #c8c8d4;
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
