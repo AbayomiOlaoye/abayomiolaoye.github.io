@@ -158,6 +158,7 @@ ul {
   text-align: left;
   text-transform: uppercase;
   margin: 0 auto;
+  max-width: 375px;
 }
 
 .work-folio {
