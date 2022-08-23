@@ -235,3 +235,9 @@ ul {
 .contact-form {
   text-align: center;
 }
+
+.media-footer,
+.social-media-links {
+  display: flex;
+  flex-direction: column;
+}
