@@ -236,7 +236,8 @@ ul {
   flex-direction: column;
 }
 
-.media-footer {
+.media-footer,
+.social-media-links {
   display: flex;
   flex-direction: column;
 }
