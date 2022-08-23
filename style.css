@@ -111,7 +111,7 @@ ul {
   width: 100%;
 }
 
-.media ul {
+.flex-row {
   display: flex;
   flex-wrap: wrap;
   gap: 1.25rem;
@@ -157,6 +157,7 @@ ul {
   color: #9490ff;
   text-align: left;
   text-transform: uppercase;
+  margin: 0 auto;
 }
 
 .work-folio {
@@ -231,7 +232,6 @@ ul {
   color: #c8c8d4;
 }
 
-.form {
-  display: flex;
-  flex-direction: column;
+.contact-form {
+  text-align: center;
 }
