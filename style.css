@@ -235,3 +235,8 @@ ul {
   display: flex;
   flex-direction: column;
 }
+
+.media-footer {
+  display: flex;
+  flex-direction: column;
+}
