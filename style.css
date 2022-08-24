@@ -324,4 +324,80 @@ ul {
     color: #edecff;
     margin: 16px 0 50px 0;
   }
+
+  .media {
+    display: flex;
+    margin-top: 100px;
+  }
+
+  .cursor {
+    margin: 0;
+  }
+
+  .recent-works {
+    text-align: left;
+    max-width: 100%;
+    margin: 150px 0 2rem;
+    text-transform: none;
+  }
+
+  .contact-form > h2.recent-works {
+    text-align: center;
+    margin: 120px 0 2rem;
+  }
+
+  .work-folio {
+    max-width: 100%;
+  }
+
+  .pro {
+    max-width: 100%;
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    align-items: center;
+  }
+
+  .placeholder {
+    max-height: 400px;
+  }
+
+  .briefs {
+    max-width: 448px;
+  }
+
+  .one .briefs {
+    margin-top: 6rem;
+  }
+
+  .two,
+  .four {
+    flex-direction: row-reverse;
+  }
+
+  #contact-section {
+    max-width: 684px;
+    margin: 0 auto;
+  }
+
+  .alt-del {
+    display: none;
+  }
+
+  .email-tab {
+    display: inline-flex;
+    width: 100%;
+    margin-left: -2.5rem;
+  }
+
+  .media-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  button[type=submit] {
+    width: 160px;
+    margin-top: 60px;
+  }
 }
