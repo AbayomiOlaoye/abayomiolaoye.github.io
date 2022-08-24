@@ -60,6 +60,8 @@ ul {
 
 .main-intro {
   text-align: center;
+  max-width: 375px;
+  margin: 0 auto;
 }
 
 .theme {
@@ -276,4 +278,50 @@ ul {
 
 .text:last-of-type {
   font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .header {
+    width: 90%;
+    margin: 0 auto 3rem;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .hide {
+    display: inline-flex;
+  }
+
+  .nav-link {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+  }
+
+  .link {
+    display: inline-flex;
+    gap: 2em;
+  }
+
+  .link a {
+    font-size: 0.94rem;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .theme {
+    font-size: 3.625rem;
+    line-height: 6.56rem;
+  }
+
+  .sub-theme {
+    font-size: 2rem;
+    line-height: 2.75rem;
+    color: #edecff;
+    margin: 16px 0 50px 0;
+  }
 }
