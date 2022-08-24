@@ -25,7 +25,7 @@ Clone the repository using the **https** or **SSH** address to have a copy on yo
 ### Usage
 Open your code editor, open the folder (cloned repo) and play around with the contents by making custom changes to suit your use.
 
-## Author
+## Authors
 
 👤 **Oluwatoyin Olaoye**
 
@@ -33,6 +33,15 @@ Open your code editor, open the folder (cloned repo) and play around with the co
 - Twitter: [@olaoyeelijah](https://twitter.com/olaoyeelijah)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/oluwatoyin-olaoye-82880363/)
 
+
+👤 **Usirusen Ikon**
+
+- GitHub: [@UsirusenIkon](https://github.com/UsirusenIkon)
+
+
+👤 **Abdul Saboor Sohaib**
+
+- GitHub: [@SaboorSohaib](https://github.com/SaboorSohaib)
 
 ## Show your support 
 
