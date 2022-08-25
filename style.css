@@ -23,15 +23,19 @@ body {
 }
 
 .link,
-.hide {
+.hide,
+.cursor.hide {
   display: none;
 }
 
 .header {
   display: flex;
+  position: fixed;
+  top: 0;
   justify-content: space-between;
   padding: 1.5rem;
   width: 100%;
+  background-color: #191765;
 }
 
 .menu-icon {
@@ -60,6 +64,8 @@ ul {
 
 .main-intro {
   text-align: center;
+  max-width: 375px;
+  margin: 0 auto;
 }
 
 .theme {
@@ -276,4 +282,158 @@ ul {
 
 .text:last-of-type {
   font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-image: url(./images/use-bg1.svg), url(./images/use-bg2.svg);
+    background-position: top 200px left 20px, top 460px right 50px;
+  }
+
+  .header {
+    /* margin: 0 auto 3rem; */
+    padding: 1.5rem 7.5rem;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .hide,
+  .cursor.hide {
+    display: inline-flex;
+  }
+
+  .nav-link {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+  }
+
+  .link {
+    display: inline-flex;
+    gap: 2em;
+  }
+
+  .link a {
+    font-size: 0.94rem;
+  }
+
+  .landing-page {
+    margin-top: 180px;
+  }
+
+  hr.lp-white {
+    max-width: 375px;
+    margin: 40px auto;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  #works-section {
+    background-image: url(./images/use-bg3.svg), url(./images/use-bg4.svg), url(./images/use-bg5.svg), url(./images/use-bg6.svg);
+    background-position: top 250px left -150px, top 880px right -100px, -100px 1400px, top 1550px right -600px;
+  }
+
+  .theme {
+    font-size: 3.625rem;
+    line-height: 6.56rem;
+  }
+
+  .sub-theme {
+    font-size: 2rem;
+    line-height: 2.75rem;
+    color: #edecff;
+    margin: 16px 0 50px 0;
+  }
+
+  .media {
+    display: flex;
+    margin-top: 100px;
+  }
+
+  .cursor {
+    margin: 0;
+  }
+
+  .recent-works {
+    text-align: left;
+    max-width: 100%;
+    margin: 150px 0 2rem;
+    text-transform: none;
+  }
+
+  .contact-form > h2.recent-works {
+    text-align: center;
+    margin: 120px 0 2rem;
+  }
+
+  .work-folio {
+    max-width: 100%;
+  }
+
+  .pro {
+    max-width: 100%;
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    align-items: center;
+  }
+
+  .placeholder {
+    max-height: 400px;
+  }
+
+  .briefs {
+    max-width: 448px;
+  }
+
+  .one .briefs {
+    margin-top: 6rem;
+  }
+
+  .two,
+  .four {
+    flex-direction: row-reverse;
+  }
+
+  #contact-section {
+    max-width: 684px;
+    margin: 0 auto;
+  }
+
+  .alt-del {
+    display: none;
+  }
+
+  .email-tab {
+    display: inline-flex;
+    width: 100%;
+    margin-left: -2.5rem;
+  }
+
+  .media-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  button[type=submit] {
+    width: 160px;
+    margin-top: 60px;
+  }
+
+  .skills-div > div > p {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+  }
+
+  div.hide {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+  }
 }

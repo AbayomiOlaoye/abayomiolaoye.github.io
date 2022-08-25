@@ -34,7 +34,7 @@
           like what you see and have a project you need coded, don't hesitate to contact me.
         </p>
       </div>
-      <hr class="white">
+      <hr class="white lp-white">
       <!-- Language and skills divisions -->
       <div class="skills-div">
         <div class="language">
@@ -67,9 +67,14 @@
           </ul>
         </div>
       </div>
-      <hr class="white">
+      <hr class="white lp-white">
       <!-- Social Media link for landing page - LP -->
       <div class="media">
+        <div class="cursor hide">
+          <p class="works-cursor">Work</p>
+          <img src="./images/icons/arrow_down.png" alt="check samples below">
+        </div>
+
         <ul class="flex-row">
           <li>
             <a href="https://www.github.com/MindPrepDev">
@@ -108,7 +113,7 @@
   <!-- Works section -->
   <section id="works-section">
     <div class="container">
-      <h2 class="recent-works robo-head">My Recent Works</h2>
+      <h2 class="recent-works robo-head">My recent works</h2>
       <hr class="white">
       <div class="work-folio">
         <!-- Project one -->
@@ -206,17 +211,22 @@
   <section id="contact-section" class="center-align">
     <div class="container">
       <div class="contact-form">
-        <h2 class="recent-works robo-head center-align">Contact us</h2>
+        <h2 class="recent-works robo-head center-align"><span class="alt-del">Contact us</span> <span class="hide">Let's chat</span></h2>
         <p class="text">
           If you have an application you are interested in developing, a feature 
           that you need built or a project that needs coding. 
           I'd love to help with it.
         </p>
         <form class="form" action="https://formspree.io/f/mrgjojra" method="post">
-          <input type="text" class="full" name="fullname" id="fullname" placeholder="Full Name" maxlength="30" required><br>
+          <input type="text" class="full alt-del" name="fullname" id="fullname" placeholder="Full Name" maxlength="30" required><br>
+            <!-- Bigger screen form  -->
+          <div class="hide">
+              <input type="text" class="full" name="fname" id="fname" placeholder="First Name" maxlength="30" required>
+              <input type="text" class="full" name="lname" id="lname" placeholder="Last Name" maxlength="30" required>
+            </div>
           <input type="email" class="full" name="email" id="email" placeholder="youremail@example.com" required><br>
           <textarea id="textarea" class="full" name="message" cols="30" rows="10" placeholder="Enter text here" maxlength="500" required></textarea><br>
-          <button type="submit" class="view robo-head">Get in touch</button>
+          <button type="submit" class="view robo-head"><span class="alt-del">Get in touch</span> <span class="hide">Send</span></button>
           <div class="error-index"></div>
         </form>
       </div>
@@ -252,7 +262,7 @@
         <a href="mailto:mindprepopps@gmail.com" class="email-tab">mindprepopps@gmail.com</a>
       </div>
     </div>
-    <div class="end-point"></div>
+    <div class="end-point alt-del"></div>
   </section>
 </body>
 </html>
