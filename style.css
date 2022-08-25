@@ -23,7 +23,8 @@ body {
 }
 
 .link,
-.hide {
+.hide,
+.cursor.hide {
   display: none;
 }
 
@@ -298,7 +299,8 @@ ul {
     display: none;
   }
 
-  .hide {
+  .hide,
+  .cursor.hide {
     display: inline-flex;
   }
 
