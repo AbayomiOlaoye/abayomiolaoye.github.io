@@ -29,9 +29,12 @@ body {
 
 .header {
   display: flex;
+  position: fixed;
+  top: 0;
   justify-content: space-between;
   padding: 1.5rem;
   width: 100%;
+  background-color: #191765;
 }
 
 .menu-icon {
@@ -281,9 +284,14 @@ ul {
 }
 
 @media (min-width: 768px) {
+  body {
+    background-image: url(./images/use-bg1.svg), url(./images/use-bg2.svg);
+    background-position: top 200px left 20px, top 460px right 50px;
+  }
+
   .header {
-    width: 90%;
-    margin: 0 auto 3rem;
+    /* margin: 0 auto 3rem; */
+    padding: 1.5rem 7.5rem;
   }
 
   .menu-icon {
@@ -309,8 +317,22 @@ ul {
     font-size: 0.94rem;
   }
 
+  .landing-page {
+    margin-top: 180px;
+  }
+
+  hr.lp-white {
+    max-width: 375px;
+    margin: 40px auto;
+  }
+
   .container {
     width: 90%;
+  }
+
+  #works-section {
+    background-image: url(./images/use-bg3.svg), url(./images/use-bg4.svg), url(./images/use-bg5.svg), url(./images/use-bg6.svg);
+    background-position: top 250px left -150px, top 880px right -100px, -100px 1400px, top 1550px right -600px;
   }
 
   .theme {
@@ -399,5 +421,11 @@ ul {
   button[type=submit] {
     width: 160px;
     margin-top: 60px;
+  }
+
+  .skills-div > div > p {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
   }
 }
