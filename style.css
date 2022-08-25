@@ -430,4 +430,10 @@ ul {
     font-size: 18px;
     line-height: 29px;
   }
+
+  div.hide {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+  }
 }
