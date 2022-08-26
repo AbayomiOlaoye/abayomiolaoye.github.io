@@ -376,6 +376,20 @@ ul {
   .media {
     display: flex;
     margin-top: 100px;
+    animation: 5s slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+      opacity: 0;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
   }
 
   .cursor {
@@ -460,20 +474,22 @@ ul {
     justify-content: space-between;
     gap: 1.5rem;
   }
-}
 
-svg {
-  position: absolute;
-  animation: 10s infinite alternate easeBounce;
-}
-
-@keyframes easeBounce {
-  from {
-    width: 50%;
+  svg {
+    position: absolute;
+    animation: 10s infinite alternate easeBounce;
   }
 
-  to {
-    transform: rotate(360deg);
-    width: 10%;
+  @keyframes easeBounce {
+    from {
+      width: 50%;
+      fill: #edecff;
+    }
+
+    to {
+      transform: rotate(360deg);
+      width: 10%;
+      fill: #7d73fc;
+    }
   }
 }
