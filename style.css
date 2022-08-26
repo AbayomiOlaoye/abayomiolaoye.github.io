@@ -335,6 +335,14 @@ ul {
     transition: all 1.3s ease-out;
   }
 
+  button {
+    height: 58px;
+    transition: background-color 0.5s;
+  }
+
+  button:hover {
+    transform: scale(1.1);
+  }
 
   .landing-page {
     margin-top: 180px;
