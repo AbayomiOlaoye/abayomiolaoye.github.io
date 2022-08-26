@@ -325,6 +325,17 @@ ul {
     color: #7d73fc;
   }
 
+  ul.flex-row li:hover img {
+    transform: rotate3d(1, 1, 1, 360deg);
+    transition: all 1.3s ease-out;
+  }
+
+  ul.flex-row li:hover {
+    transform: scale(1.09);
+    transition: all 1.3s ease-out;
+  }
+
+
   .landing-page {
     margin-top: 180px;
   }
