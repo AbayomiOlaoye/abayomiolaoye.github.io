@@ -286,7 +286,7 @@ ul {
 
 @media (min-width: 768px) {
   body {
-    background-image: url(./images/use-bg1.svg), url(./images/use-bg2.svg);
+    background-image: url(./images/use-bg.svg), url(./images/use-bg2.svg);
     background-position: top 200px left 20px, top 460px right 50px;
   }
 
@@ -317,6 +317,12 @@ ul {
 
   .link a {
     font-size: 0.94rem;
+    transition: all 0.8s ease-in-out;
+  }
+
+  .link a:hover {
+    font-size: 1rem;
+    color: #7d73fc;
   }
 
   .landing-page {
@@ -435,5 +441,21 @@ ul {
     display: flex;
     justify-content: space-between;
     gap: 1.5rem;
+  }
+}
+
+svg {
+  position: absolute;
+  animation: 10s infinite alternate easeBounce;
+}
+
+@keyframes easeBounce {
+  from {
+    width: 50%;
+  }
+
+  to {
+    transform: rotate(360deg);
+    width: 10%;
   }
 }
