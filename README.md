@@ -1,12 +1,16 @@
 # Work-folio
 
-This is my personal portfolio website as a beginner Software Developer. Though it is yet a work-in-progress, it's built with high preference for responsiveness using modern technologies. It features my learning speed and upward scaling. It depicts my strengths, capabilities, as I grow in experience.
+This is my portfolio website as a beginner Software Developer. Though it is yet a work-in-progress, it's built with high preference for responsiveness using modern technologies. It features my learning speed and upward scaling. It depicts my strengths, capabilities, as I grow in experience.
 I hope you will be kind enough to give opinions on how to make it better. 
 
 ## Built With:
 
 - HTML
 - CSS
+
+## Live Version 🌍
+Here is a link to the deployed version of my responsive [portfolio website](https://abayomiolaoye.github.io/).
+Feel free to check it out and share your view about it.
 
 ## Getting Started 
 
